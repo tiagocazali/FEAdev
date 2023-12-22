@@ -25,7 +25,7 @@ def jogo_do_bingo():
         
         #pede para apertar ENTER para sortear um numero, se apertar "q", termina o jogo
         print("======\n")
-        x = input(print("Aperte ENTER para sortear um numero: (q para sair)"))
+        x = input("Aperte ENTER para sortear um numero: (q para sair)")
         
         if x == "q":
             continua = False
@@ -72,7 +72,7 @@ def sortear_bingo():
             print(f"Numero sorteado: {temp}")
 
             return temp
-            break
+            
         
 
 def imprimir_cartela(cartela):
